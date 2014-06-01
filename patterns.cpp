@@ -125,7 +125,7 @@ void reduce() {
 
   const int product = parallel_reduce(blocked_range<int*>(input, input+size), 1, combineFunc, multFunc);
 
-  cout << "product: " << product << endl;
+  cout << "product: " << product << endl << endl;
 }
 
 void scan() {
