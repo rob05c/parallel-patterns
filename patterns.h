@@ -6,6 +6,9 @@ void map();
 void stencil();
 void reduce();
 void scan();
+void pack();
+void gather();
+void workpile();
 
 } // namespace patterns
 #endif
